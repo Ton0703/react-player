@@ -9,7 +9,11 @@ function Header({set, setVisible}) {
     return (
         <div className='header'>
             <div className="home" onClick={urlJump}>Home</div>
-            <div className="github">Github</div>
+            <div className="github">
+                <a href='https://github.com/Ton0703/react-player'>
+                  Github
+                </a>
+            </div>
         </div>
     )
 }
